@@ -5,4 +5,5 @@ go_library(
     srcs = ["main.go"],
     importpath = "bazel_project/a",
     visibility = ["//visibility:public"],
+    deps = ["@com_github_mitchellh_mapstructure//:go_default_library"],
 )
